@@ -29,7 +29,7 @@ font-weight: var(--unnamed-font-weight-normal);
 font-size: var(--unnamed-font-size-48);
 line-height: var(--unnamed-line-spacing-49);
 letter-spacing: var(--unnamed-character-spacing-0-58);
-color: var(--unnamed-color-042031);
+color: #fff;
 text-transform: var(--unnamed-text-transform-titlecase);
 }
 .mainheading {
@@ -39,7 +39,7 @@ font-weight: var(--unnamed-font-weight-600);
 font-size: var(--unnamed-font-size-53);
 line-height: var(--unnamed-line-spacing-55);
 letter-spacing: var(--unnamed-character-spacing-0-64);
-color: var(--unnamed-color-042031);
+color: #fff;
 text-transform: var(--unnamed-text-transform-titlecase);
 }
 .para {
@@ -79,4 +79,48 @@ color: var(--unnamed-color-042031);
 }
 .navul > li{
     margin-left:20px;
+}
+
+
+section{
+    min-height: 80vh;
+}
+
+.landingheading{
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 50px/59px var(--unnamed-font-family-poppins);
+text-align: left;
+font: normal normal bold 50px/59px Poppins;
+letter-spacing: 3.9px;
+color: #FFFFFF;
+opacity: 1;
+}
+.landingpara{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/27px var(--unnamed-font-family-poppins);
+text-align: left;
+font: normal normal normal 18px/27px Poppins;
+letter-spacing: 0.4px;
+color: #FFFFFF;
+opacity: 1;
+}
+.btn-light{
+    color: #430064 !important;
+}
+
+#upperdots{
+    position: absolute;
+    left: 100px;
+    z-index:1;
+}
+#mainimage{
+    position: absolute;
+    left: 70px;    
+    top:40px;
+    z-index: 3;
+}
+#lowerdots{
+    position: absolute;
+    right: 45px;    
+    top:255px;
+    z-index: 2;
+    
 }

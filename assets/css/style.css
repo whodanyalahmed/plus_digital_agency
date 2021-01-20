@@ -1,3 +1,4 @@
+/* Starting variables */
 :root {
 
 /* Font/text values */
@@ -61,13 +62,17 @@ letter-spacing: var(--unnamed-character-spacing-1-68);
 color: var(--unnamed-color-042031);
 }
 
-
+/* 1st section */
 .bgcolor{
     font-family: var(--unnamed-font-family-poppins);
     font-style: var(--unnamed-font-style-normal);
     background: #430064;
 }
-
+.bgcolor1{
+    font-family: var(--unnamed-font-family-poppins);
+    font-style: var(--unnamed-font-style-normal);
+    background:#360263;
+}
 .navul{
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 17px/26px var(--unnamed-font-family-poppins);
     text-align: left;
@@ -94,6 +99,8 @@ letter-spacing: 3.9px;
 color: #FFFFFF;
 opacity: 1;
 }
+
+
 .landingpara{
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/27px var(--unnamed-font-family-poppins);
 text-align: left;
@@ -102,6 +109,27 @@ letter-spacing: 0.4px;
 color: #FFFFFF;
 opacity: 1;
 }
+
+.heading{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 36px/37px var(--unnamed-font-family-poppins);
+    text-align: left;
+    font: normal normal bold 36px/37px Poppins;
+    letter-spacing: 2.41px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.para{
+    text-align: left;
+    letter-spacing: 0.63px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.bold{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 18px/31px var(--unnamed-font-family-poppins);
+    
+}
+
 .btn-light{
     color: #430064 !important;
 }
@@ -136,12 +164,16 @@ opacity: 1;
     top:400px;
 
 }
-
+/* Section 2 */
+#section2{
+    background: #360263 url('../images/background Img.svg')  no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+    
+}
 @media only screen and (max-width: 600px) {
     #dotsandimages {
       display:none;
-    }
-    #purpleTri{
-    
     }
   }

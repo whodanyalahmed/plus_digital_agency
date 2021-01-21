@@ -8,7 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Hello, world!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Plus Digital Agency</title>
   </head>
   <body>
       <!-- Navbar start -->
@@ -61,6 +64,7 @@
                 <div class="col-md-7" id="dotsandimages">
                     
                     <img src="assets/images/img@2x.png"     class="img-fluid" id="mainimage" width="500px" height= "400px"  alt="main image" >
+                    
                     <img src="assets/images/Group 314.svg"  class="img-fluid" id="upperdots" alt="upper dots">
                     <img src="assets/images/Group 315.svg"  class="img-fluid" id="lowerdots" alt="lower dots"> 
                 </div>
@@ -69,6 +73,7 @@
         </div>
         
         <img src="assets/images/Group 311.svg" style="position: relative;top:40px;width: 80px;height: 200px;" alt="left dots">
+        <img src="assets/images/Path 36.svg" style="position: absolute;top:40px;width: 80px;height: 200px;" id="upperTri"  class="img-fluid"  alt="upper tri">
         <img src="assets/images/Path 38.svg" id="whiteTri" alt="right triangle">
         <img src="assets/images/Path 37.svg" id="purpleTri" alt="purple triangle">
         <div>
@@ -76,9 +81,9 @@
     </section>
 <!-- Section2 -->
     <section class="bgcolor1" id="section2">
-        <div class="container pt-5">
-            <div class="row pt-5">
-                <div class="col-md-6">
+        <div class="container pt-5 ">
+            <div class="row py-5">
+                <div class="col-md-6 ">
                     <h2 class="heading">Who we are</h2>
                     <p class="para pt-3">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem. consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -89,9 +94,87 @@
                     <hr style=" border-top: 3px dashed #C4C4C4;"  />
                     <button class="btn btn-light px-4 py-2 mt-3" style="font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 22px/33px var(--unnamed-font-family-poppins);">Learn More &nbsp; <i class="fa fa-arrow-right"></i></button>
                 </div>
+                <div class="col-md-6 pl-3">
+                    <img id="tablet" src="assets/images/developing-programmer-team-development-website-design-coding-technologies.png"  style="width: 398px; height: 413px;box-shadow: 4px 8px 16px #00000014;"
+                    alt="" class="mx-auto d-block img-fluid">
+                    <img id="wallpaper" src="assets/images/Group 565.svg" style="width:351px;height:361px;"  alt="laptop illustration" class="mx-auto d-block img-fluid" >
+                    <!-- <img src="assets/images/Group 565.svg" style="width:351px;height:361px;" class="img-fluid" alt="laptop illustration">
+                    <img src="assets/images/developing-programmer-team-development-website-design-coding-technologies.png" class="img-fluid" style="width: 398px; height: 413px;box-shadow: 4px 8px 16px #00000014;position: relative;right:-250px;top:-270px;" alt="">
+                </div> -->
+            </div>
+            <div class="row ">
+                <div class="col-md-3 pt-5" >
+                    <div class="card p-3" >    
+                        <div class="card-body">
+                            <div class="smallRect"></div>
+                            <h4 class="card-title color mt-3">
+                                Lorem ipsum dolor sit amet,
+                            </h4>
+                            <p class="card-text color">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+                            <a href="#" class="color" style="font: bold normal normal 15px/23px Poppins;">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 pt-5 ">
+                    <div class="d-block">
+                        <h2 class="heading">Why choose Plus Digital Agency</h2>
+                        <p class="para pt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+                    </div>
+                    
+                    <div class="col-md-8 pt-3 d-block">
+                        <div class="card p-3 " >    
+                            <div class="card-body">
+                                <div class="card-body">
+                                    <div class="smallRect"></div>
+                                    <h4 class="card-title color mt-3">
+                                        Development
+                                    </h4>
+                                    <p class="card-text color">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+                                    <a href="#" class="color" style="font: bold normal normal 15px/23px Poppins;">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-3">
+                    <div class="card p-3" >    
+                        <div class="card-body">
+                            <div class="smallRect"></div>
+                            <h4 class="card-title color mt-3">
+                                Lorem ipsum dolor sit amet,
+                            </h4>
+                            <p class="card-text color">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+                            <a href="#" class="color" style="font: bold normal normal 15px/23px Poppins;">Read more</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6">
-                    <img src="assets/images/developing-programmer-team-development-website-design-coding-technologies.png" style="width: 398px; height: 413px;box-shadow: 4px 8px 16px #00000014;" alt="">
-                    <img src="assets/images/Group 565.svg" style="position: relative;right:-250px;top:-270px;width:351px;height:361px;" alt="laptop illustration">
+                    <div class="card p-3 m-3 " >    
+                        <div class="card-body">
+                            <div class="card-body">
+                                <div class="smallRect"></div>
+                                <h4 class="card-title color mt-3">
+                                    Development
+                                </h4>
+                                <p class="card-text color">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+                                <a href="#" class="color" style="font: bold normal normal 15px/23px Poppins;">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" >    
+                        <div class="card-body">
+                            <div class="smallRect"></div>
+                            <h4 class="card-title color mt-3">
+                                Launching
+                            </h4>
+                            <p class="card-text color">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+                            <a href="#" class="color" style="font: bold normal normal 15px/23px Poppins;">Read more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

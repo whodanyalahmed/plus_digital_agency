@@ -74,6 +74,12 @@ color: var(--unnamed-color-042031);
     font-style: var(--unnamed-font-style-normal);
     background:#360263;
 }
+.bgcolor2{
+    font-family: var(--unnamed-font-family-poppins);
+    font-style: var(--unnamed-font-style-normal);
+    background: #1e015e;
+    color:#fff !important;
+}
 .navul{
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 17px/26px var(--unnamed-font-family-poppins);
     text-align: left;

@@ -284,10 +284,10 @@ opacity: 1;
 }
 /* section 5  */
 .card-image{
-    width:101%;
+    width:114%;
     height:250px;
     position:relative;
-    right:1px;
+    right:17px;
     background: #9058F2 0% 0% no-repeat padding-box;
     border-radius: 12px 12px 0px 0px;
     opacity: 0.29;
@@ -391,3 +391,10 @@ footer a:hover,a:focus{
       display:none;
     }
   }
+
+
+
+
+
+
+  

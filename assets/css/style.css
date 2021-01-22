@@ -373,7 +373,7 @@ footer a{
     color:#fff;
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     line-height:35px;
-    transition: 0.9s ease-in;
+    transition: 0.4s ease-in;
 
 }
 footer a:hover,a:focus{
@@ -381,7 +381,10 @@ footer a:hover,a:focus{
    
 }
 .footer-below{
+    overflow:hidden;
     border-top:2px solid #7E35FE;
+    width:100%;
+
 }
 @media only screen and (max-width: 600px) {
     #dotsandimages,#section2,#upperTri {

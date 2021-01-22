@@ -73,7 +73,21 @@ color: var(--unnamed-color-042031);
     outline:none !important;
     opacity: 1;
 }
+.btn-info{
+    background: #7E35FE !important;
+    border-radius: 5px !important;
+    color:#fff;
+    opacity: 1;
+}
 
+.btn-info:hover,.btn-info:focus{
+
+    background: #7E35FE !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    outline:none !important;
+    opacity: 1;
+}
 /* 1st section */
 
 .bgcolor{
@@ -255,7 +269,7 @@ opacity: 1;
 }
 /* section 5  */
 .card-image{
-    width:385px;
+    width:101%;
     height:250px;
     position:relative;
     right:1px;
@@ -264,6 +278,46 @@ opacity: 1;
     opacity: 0.29;
 }
 
+.overflow{
+    overflow:hidden;
+}
+/* Section 6 */
+#section6{
+    background: #360263 url('../images/Group\ 515.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+.dasheddot{
+    width:28px;
+    height:6px;
+    border-radius: 20px;
+    background: #7E35FE;
+    margin-left: 15px;
+     
+}
+.smalldot{
+    width:9px;
+    height:9px;
+    border-radius: 100%;
+    background: #f6f2fc;
+    margin-left:15px;
+}
+
+input[type="text"]{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid #9058F2;
+    margin-bottom:70px;
+    transition:0.5s ease-in-out;
+}
+input[type="text"]:hover,input[type="text"]:focus   {
+    border-bottom: 3px solid #430064;
+    
+}
 @media only screen and (max-width: 600px) {
     #dotsandimages,#section2,#upperTri {
       display:none;

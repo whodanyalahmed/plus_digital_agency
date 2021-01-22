@@ -146,7 +146,6 @@ opacity: 1;
     color: #7E35FE;
 }
 .bold{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 18px/31px var(--unnamed-font-family-poppins);
     font-weight:bold;
     
 }
@@ -254,7 +253,16 @@ opacity: 1;
     color: #1e015e;
     transition:0.9 ease-in-out;
 }
-
+/* section 5  */
+.card-image{
+    width:385px;
+    height:250px;
+    position:relative;
+    right:1px;
+    background: #9058F2 0% 0% no-repeat padding-box;
+    border-radius: 12px 12px 0px 0px;
+    opacity: 0.29;
+}
 
 @media only screen and (max-width: 600px) {
     #dotsandimages,#section2,#upperTri {

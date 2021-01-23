@@ -13,103 +13,52 @@
 
     <title>test</title>
     <style>
-        
-        /* external css: flickity.css */
 
-/* * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body { font-family: sans-serif; }
-
-.gallery {
-  background: #EEE;
-}
-
-.gallery-cell {
-  width: 28%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
-}
-
-.gallery-cell.is-selected {
-  background: #ED2;
-}
-
-/* cell number 
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-} */
     </style>
 </head>
 <body>
-
-
-    <section class="bgcolor1 py-5 overflow">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="assets/images/doted background.svg" class="img-fluid d-block" alt="dotted background">
-                    <img src="assets/images/Ellipse 17.svg" style="position: relative; top:-30%;left:25%;" class="img-fluid d-block" alt="ellipse in dotted">
-                </div>
-                
-                <div class="col-md-9">
-                    <h2 class="heading d-block">Our Latest</h2>
-                    <h2 class="para" style="font-weight:300;">Blogs</h2>
-
-                    <div class="gallery js-flickity">
-
-                        <div class="card col-md-4 d-block pb-4 ml-3 mt-4 gallery-cell ">
-                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                            <!-- Dummy image -->
-                            <div class="card-image card-img-top" alt="Card image cap"></div>
-                            <div class="card-body text-center ">
-                                <h3 class="card-title color bold ">Card title</h3>
-                                <p class="card-text para color mb-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-outline-info">Read More <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
     
-                        <div class="card col-md-4 d-block pb-4 ml-3 mt-4 gallery-cell">
-                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                            <!-- Dummy image -->
-                            <div class="card-image card-img-top" alt="Card image cap"></div>
-                            <div class="card-body text-center">
-                                <h3 class="card-title color bold ">Card title</h3>
-                                <p class="card-text para color mb-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-outline-info">Read More <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-  
-                        <div class="card col-md-4 d-block pb-4 ml-3 mt-4 gallery-cell ">
-                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                            <!-- Dummy image -->
-                            <div class="card-image card-img-top" alt="Card image cap"></div>
-                            <div class="card-body text-center">
-                                <h3 class="card-title color bold ">Card title</h3>
-                                <p class="card-text para color mb-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-outline-info">Read More <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
+        <section class="bgcolor1 py-5">
+            <div class="container">
+                <div class="gallery js-flickity" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false ,"autoPlay": true}'>
+                    <div class="gallery-cell ml-5">
+                        
+                        <img src="assets/images/Rectangle 98.png" alt="pineapple" />
+                    </div>
+                    <div class="gallery-cell ml-5">
+                        <img src="assets/images/Rectangle 99.png" alt="phone" />
+                        
+                    </div>
+                    <div class="gallery-cell ml-5">
+                        <img src="assets/images/Rectangle 100.png" alt="cap" />
+                        
                     </div>
                 </div>
+                <div class="row pb-5">
+                    <div class="col-md-3">
+                        <!-- <button class="NextPrev"><i class="fa fa-arrow-left"></i> </button> <span class="para ">Prev</span>  -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mx-auto text-center"><br>
+                            <h2 class="heading">art & illustration</h2>
+                            <p class="para">Innovation and Crafts.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 row d-flex justify-content-md-between">
+                        <!-- <span class="para d-flex justify-content-md-" >  Next</span> <button class="NextPrev "> <i class="fa fa-arrow-right"></i></button> -->
+                    </div>
+                </div>
+    
             </div>
-        </div>
-    </section>
+        </section>
+
+
         <!-- JavaScript card carousal-->
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>\
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-      
+
 </body>
 </html>

@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <title>Plus Digital Agency</title>
-    <title>Plus Digital Agency</title>
   </head>
   <body>
       <!-- Navbar start -->
@@ -39,7 +38,7 @@
                     <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact us</a>
@@ -96,7 +95,7 @@
                     <hr style=" border-top: 3px dashed #C4C4C4;"  />
                     <button class="btn btn-light px-4 py-2 mt-3" style="font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 22px/33px var(--unnamed-font-family-poppins);">Learn More &nbsp; <i class="fa fa-arrow-right"></i></button>
                 </div>
-                <div class="col-md-6 ">
+                <div class="col-md-6 " id="tabwall">
                     <img id="tablet" src="assets/images/developing-programmer-team-development-website-design-coding-technologies.png"  style="width: 398px; height: 413px;box-shadow: 4px 8px 16px #00000014;"
                     alt="" class="mx-auto d-block img-fluid">
                     <img id="wallpaper" src="assets/images/Group 565.svg" style="width:351px;height:361px;"  alt="laptop illustration" class="mx-auto d-block img-fluid" >
@@ -193,7 +192,7 @@
             </div>
             <div class="row pt-3 pb-5">
                 <div class="col-md-3">
-                    <div class="card py-3">
+                    <div class="card py-3 my-4">
                         <div class="card-body">
                             <div class="mx-auto">
                                 <div class="outerElipse">
@@ -209,7 +208,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card py-3">
+                    <div class="card py-3 my-4">
                         <div class="card-body">
                             <div class="mx-auto">
                                 <div class="outerElipse">
@@ -225,7 +224,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card py-3">
+                    <div class="card py-3 my-4">
                         <div class="card-body">
                             <div class="mx-auto">
                                 <div class="outerElipse">
@@ -241,7 +240,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card py-3">
+                    <div class="card py-3 my-4">
                         <div class="card-body">
                             <div class="mx-auto">
                                 <div class="outerElipse">
@@ -260,34 +259,35 @@
     </section>
     <!-- Section 3 end here -->
     <!-- Section 4 start here -->
+    
     <section class="bgcolor1 py-5">
         <div class="container">
-            <div class="row py-5">
-                <div class="col-md-3">
+            <div class="gallery js-flickity" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false ,"autoPlay": true}'>
+                <div class="gallery-cell ml-5">
                     
-                    <img src="assets/images/Rectangle 98.png" class="img-fluid" alt="pineapple">
+                    <img src="assets/images/Rectangle 98.png" alt="pineapple" />
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/images/Rectangle 99.png" class="img-fluid" alt="phone">
+                <div class="gallery-cell ml-5">
+                    <img src="assets/images/Rectangle 99.png" alt="phone" />
                     
                 </div>
-                <div class="col-md-3">
-                    <img src="assets/images/Rectangle 100.png" class="img-fluid" alt="cap">
+                <div class="gallery-cell ml-5">
+                    <img src="assets/images/Rectangle 100.png" alt="cap" />
                     
                 </div>
             </div>
             <div class="row pb-5">
                 <div class="col-md-3">
-                    <button class="NextPrev"><i class="fa fa-arrow-left"></i> </button> <span class="para ">Prev</span> 
+                    <!-- <button class="NextPrev"><i class="fa fa-arrow-left"></i> </button> <span class="para ">Prev</span>  -->
                 </div>
                 <div class="col-md-6">
                     <div class="mx-auto text-center"><br>
-                        <h2 class="heading">art & illustration</h2>
+                        <h2 class="heading">Art & Illustration</h2>
                         <p class="para">Innovation and Crafts.</p>
                     </div>
                 </div>
                 <div class="col-md-3 row d-flex justify-content-md-between">
-                    <span class="para d-flex justify-content-md-" >  Next</span> <button class="NextPrev "> <i class="fa fa-arrow-right"></i></button>
+                    <!-- <span class="para d-flex justify-content-md-" >  Next</span> <button class="NextPrev "> <i class="fa fa-arrow-right"></i></button> -->
                 </div>
             </div>
 
@@ -299,7 +299,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/images/doted background.svg" class="img-fluid d-block" alt="dotted background">
+                    <img src="assets/images/doted background.svg" id="section5Dotted" class="img-fluid d-block" alt="dotted background">
                     <img src="assets/images/Ellipse 17.svg" style="position: relative; top:-30%;left:25%;" class="img-fluid d-block" alt="ellipse in dotted">
                 </div>
                 
@@ -307,7 +307,7 @@
                     <h2 class="heading d-block">Our Latest</h2>
                     <h2 class="para" style="font-weight:300;">Blogs</h2>
 
-                    <div class="gallery js-flickity">
+                    <div class="gallery js-flickity pb-5" data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false ,"autoPlay": true}'>
 
                         <div class="card col-md-5 d-block pb-4 ml-3 mt-4 gallery-cell ">
                             <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
@@ -361,7 +361,7 @@
                                 <a href="#" class="btn btn-outline-info">Read More <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
-                                             <div class="card col-md-5 d-block pb-4 ml-3 mt-4 gallery-cell ">
+                        <div class="card col-md-5 d-block pb-4 ml-3 mt-4 gallery-cell ">
                             <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
                             <!-- Dummy image -->
                             <div class="card-image card-img-top" alt="Card image cap"></div>
@@ -381,8 +381,8 @@
     <section class="bgcolor1 py-5 pt-5" id="section6">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="card p-3 mr-5">
+                <div class="col-md-6 col-sm-12">
+                    <div class="card p-3">
                         <div class="card_body">
                             <form class="form-group p-5" action="" method="POST">
                                 <label for="your_mail" class="color">Your mail</label><br>
@@ -398,8 +398,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h2 class="heading pt-5 " style="width:400px;">Don't Hesitate to Contact Us for any</h2> 
+                <div class="col-md-6 col-sm-12">
+                    <h2 class="heading pt-5 ">Don't Hesitate to Contact Us for any</h2> 
                     <h2 class="heading pt-3" style="font-weight: 300;">Information.</h2>
                     
                     <div class="row mb-5 pt-5">
@@ -423,8 +423,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 my-5 text-center">
-                    <h1 class="heading bold" style="font: normal normal bold 72px/88px Poppins;
-                    letter-spacing: 2.52px;">Contact Us for any</h1><br><h1 class="heading" style="margin-top:-50px;font: normal normal 300 72px/88px Poppins;letter-spacing: 2.52px;">Company News.</h1>
+                    <h1 class="heading bold">Contact Us for any</h1><br><h1 class="heading" style="font-weight: 300;">Company News.</h1>
                 </div>
                 <div class="col-md-12 py-3 text-center">
                     <div class="input-group mb-5" id="emailGroup">
@@ -444,26 +443,25 @@
             <div class="row py-4">
                 <div class="col-md-3">
                     <img src="assets/images/logo.svg" class="img-fluid mb-5" alt="logo">
-                    <p class="para mt-5">info@plusdigitalagency.com<br><br>+44 0123 4567</p>
+                    <p class="para mt-5" style="width: min-content;"> info@plusdigitalagency.com<br><br>+44 0123 4567</p>
                 </div>
-                <div class="col-md-3">
-                    <h4 class="">Services</h4><br>
-                    
+                <div class="col-md-3 col-sm-12 my-3">
+                    <h4 >Services</h4>
                     <a href="#">Digital Marketing</a><br>
                     <a href="#">UI/UX Design</a><br>
                     <a href="#">Digital Marketing</a><br>
                     <a href="#">UI/UX Design</a><br>
                     <a href="#">Digital Marketing</a><br>
                 </div>
-                <div class="col-md-3">
-                    <h4 class="">About us</h4><br>
+                <div class="col-md-3 col-sm-12 my-3">
+                    <h4>About us</h4>
                     <a href="#">PORTFOLIO</a><br>
                     <a href="#">LOCATIONS</a><br>
                     <a href="#">BLOG</a><br>
                     <a href="#">ABOUT</a><br>
                 </div>
-                <div class="col-md-3">
-                    <h4 class="">Our address</h4><br><br>
+                <div class="col-md-3 col-sm-12 my-3">
+                    <h4>Our address</h4>
                     <p class="para" style="font-weight: 300;">Dallas Texas, Dallas Texas, USA</p>
                     <div class="row">
                         <a href="#" class="ml-3" ><i class="fa fa-facebook"></i></a>

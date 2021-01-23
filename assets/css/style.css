@@ -282,6 +282,20 @@ opacity: 1;
     color: #1e015e;
     transition:0.9 ease-in-out;
 }
+
+/* big previous & next buttons hide */
+.flickity-prev-next-button {
+    background: #1e015e;
+    color:#fff;
+    position:relative;
+    top:120px;
+    left: 90%;
+    padding:60px 15px;
+    border:none;
+    transition:0.9 ease-in-out;
+    outline: none;
+    border-radius: 0px;
+  }
 /* section 5  */
 .card-image{
     width:110%;
@@ -296,6 +310,8 @@ opacity: 1;
 .overflow{
     overflow:hidden;
 }
+
+  
 /* Section 6 */
 #section6{
     background: #360263 url('../images/Group\ 515.svg');
@@ -387,14 +403,143 @@ footer a:hover,a:focus{
 
 }
 @media only screen and (max-width: 600px) {
-    #dotsandimages,#section2,#upperTri {
+    #dotsandimages,#tabwall,#whiteTri,#upperTri ,#section5Dotted{
       display:none;
     }
+          /* Section 3 */
+          .outerElipse{
+            width: 40vw;
+            height: 40vw;
+            background: #f6f2fc;
+            border-radius: 100%;
+            display: inline-block;
+            position:relative;
+            left:20vw;
+    
+        }
+        .innerElipse{  
+            width: 30vw;
+            height: 30vw;
+    
+            display: inline-block;
+            background: #7E35FE;
+            border-radius: 100%;
+            position:absolute;
+            left:5vw; 
+            top:12%; 
+            
+        }
+        /* big previous & next buttons hide */
+.flickity-prev-next-button {
+    background: #1e015e;
+    color:#fff;
+    position:relative;
+    top:120px;
+    left: 75%;
+    padding:60px 15px;
+    border:none;
+    transition:0.9 ease-in-out;
+    outline: none;
+    border-radius: 0px;
+    margin: 50px 0;
+  }
   }
 
 
+@media only screen and (max-width: 767px) {
+    #dotsandimages,#tabwall,#upperTri ,#section5Dotted{
+        display:none;
+      }
+      .outerElipse{
+        width: 40vw;
+        height: 40vw;
+        background: #f6f2fc;
+        border-radius: 100%;
+        display: inline-block;
+        position:relative;
+        left:20vw;
+
+    }
+    .innerElipse{  
+        width: 30vw;
+        height: 30vw;
+
+        display: inline-block;
+        background: #7E35FE;
+        border-radius: 100%;
+        position:absolute;
+        left:5vw; 
+        top:12%; 
+        
+    }
+}
+  /* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    #tabwall,#upperTri ,#section5Dotted{
+        display:none;
+      }
+      .card-image{
+          width:120%;
+      }
+      #dotsandimages{
+          margin-top:50px;
+      }
+      #mainimage{
+          width:350px;
+          height:300px;
+          /* margin-right:10px; */
+      }
+      #upperdots,#lowerdots{
+          height:150px;
+          width:150px;
+      }
+      /* Section 3 */
+    .outerElipse{
+        width: 100px;
+        height: 100px;
+        background: #f6f2fc;
+        border-radius: 100%;
+        display: inline-block;
+        position:relative;
+        left:5%;
+
+    }
+    .innerElipse{
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        background: #7E35FE;
+        border-radius: 100%;
+        position:absolute;
+        left:20%; 
+        top:20%; 
+        
+    }
+}
 
 
 
+/* About us */
 
-  
+#abouthead{
+    background: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#abouthead a{
+    color:#fff;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    line-height:35px;
+    transition: 0.4s ease-in;
+
+}
+#abouthead a:hover,a:focus{
+    color:#9058F2;
+   
+}

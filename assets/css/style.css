@@ -403,10 +403,93 @@ footer a:hover,a:focus{
 
 }
 @media only screen and (max-width: 600px) {
-    #dotsandimages,#section2,#upperTri {
+    #dotsandimages,#section2,#upperTri ,#section5Dotted{
       display:none;
     }
+          /* Section 3 */
+          .outerElipse{
+            width: 160px;
+            height: 160px;
+            background: #f6f2fc;
+            border-radius: 100%;
+            display: inline-block;
+            position:relative;
+            left:25%;
+    
+        }
+        .innerElipse{
+            width: 120px;
+            height: 120px;
+            display: inline-block;
+            background: #7E35FE;
+            border-radius: 100%;
+            position:absolute;
+            left:12%; 
+            top:12%; 
+            
+        }
+        /* big previous & next buttons hide */
+.flickity-prev-next-button {
+    background: #1e015e;
+    color:#fff;
+    position:relative;
+    top:120px;
+    left: 75%;
+    padding:60px 15px;
+    border:none;
+    transition:0.9 ease-in-out;
+    outline: none;
+    border-radius: 0px;
+    margin: 50px 0;
   }
+  }
+
+  /* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    #section2,#upperTri ,#section5Dotted,#tablet{
+        display:none;
+      }
+      .card-image{
+          width:120%;
+      }
+      #dotsandimages{
+          margin-top:50px;
+      }
+      #mainimage{
+          width:350px;
+          height:300px;
+          /* margin-right:10px; */
+      }
+      #upperdots,#lowerdots{
+          height:150px;
+          width:150px;
+      }
+      /* Section 3 */
+    .outerElipse{
+        width: 100px;
+        height: 100px;
+        background: #f6f2fc;
+        border-radius: 100%;
+        display: inline-block;
+        position:relative;
+        left:12%;
+
+    }
+    .innerElipse{
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        background: #7E35FE;
+        border-radius: 100%;
+        position:absolute;
+        left:12%; 
+        top:12%; 
+        
+    }
+}
 
 
 

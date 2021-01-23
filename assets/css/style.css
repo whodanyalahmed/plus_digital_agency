@@ -215,7 +215,8 @@ opacity: 1;
 }
 /* Section 2 */
 #section2{
-    background: #360263 url('../images/background Img.svg');
+    background: #360263 ;
+    background-image: url('../images/background Img.svg') !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -542,4 +543,107 @@ and (-webkit-min-device-pixel-ratio: 1) {
 #abouthead a:hover,a:focus{
     color:#9058F2;
    
+}
+
+/* Portfolio */
+
+#portHead{
+    background: url("../images/Portfoliobanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+#portHead a{
+    color:#fff;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    line-height:35px;
+    transition: 0.4s ease-in;
+
+}
+#portHead a:hover,a:focus{
+    color:#9058F2;
+   
+}
+
+#tags{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 29px;
+    width: 673px;
+    height: 63px;
+}
+#noListStyle{
+    list-style:none;
+}
+#inlineList{
+    list-style-type: circle;
+    /* margin-top:20px; */
+    
+}
+#inlineList li {
+    padding-left: 10px;
+    display:inline;
+
+}
+#inlineList li a{
+    color:#9058F2;
+}
+#inlineList li div{
+    display:inline !important;
+}
+
+/* Services */
+
+#ServicesHead{
+    background: url("../images/Servicesbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+#ServicesHead a{
+    color:#fff;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    line-height:35px;
+    transition: 0.4s ease-in;
+
+}
+#ServicesHead a:hover,a:focus{
+    color:#9058F2;
+   
+}
+
+/* location */
+
+
+
+
+#LocationHead{
+    background: url("../images/Locationbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+#LocationHead a{
+    color:#fff;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    line-height:35px;
+    transition: 0.4s ease-in;
+
+}
+#LocationHead a:hover,a:focus{
+    color:#9058F2;
+   
+}
+.holder{
+    position: relative;
+    display: block;
+}
+.amflag-image{
+    left: 23%;
+    top: 10%;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -25px;
 }

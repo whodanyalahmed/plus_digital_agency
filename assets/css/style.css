@@ -282,6 +282,20 @@ opacity: 1;
     color: #1e015e;
     transition:0.9 ease-in-out;
 }
+
+/* big previous & next buttons hide */
+.flickity-prev-next-button {
+    background: #1e015e;
+    color:#fff;
+    position:relative;
+    top:120px;
+    left: 90%;
+    padding:60px 15px;
+    border:none;
+    transition:0.9 ease-in-out;
+    outline: none;
+    border-radius: 0px;
+  }
 /* section 5  */
 .card-image{
     width:110%;
@@ -296,6 +310,8 @@ opacity: 1;
 .overflow{
     overflow:hidden;
 }
+
+  
 /* Section 6 */
 #section6{
     background: #360263 url('../images/Group\ 515.svg');

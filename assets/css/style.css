@@ -659,3 +659,35 @@ and (-webkit-min-device-pixel-ratio: 1) {
         margin-left: -25px;
     }
 }
+
+
+/* Blogs */
+
+
+
+#LocationHead{
+    background: url("../images/Locationbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+#LocationHead a{
+    color:#fff;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    line-height:35px;
+    transition: 0.4s ease-in;
+
+}
+#LocationHead a:hover,a:focus{
+    color:#9058F2;
+   
+}
+
+.noBR{
+    border-radius:0px !important; 
+}
+
+.cardBg{
+    background: #461272;
+}

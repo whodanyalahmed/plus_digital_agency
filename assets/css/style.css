@@ -103,11 +103,13 @@ color: var(--unnamed-color-042031);
     outline:none !important;
     opacity: 1;
 }
-.navbar{
+/* .navbar{
     overflow: hidden;
-}
+} */
 /* 1st section */
-
+.dropdown-menu a{
+    color:#1e015e !important;
+} 
 .bgcolor{
     font-family: var(--unnamed-font-family-poppins);
     font-style: var(--unnamed-font-style-normal);

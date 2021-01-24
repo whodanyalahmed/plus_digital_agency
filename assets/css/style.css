@@ -416,6 +416,8 @@ footer a:hover,a:focus{
     width:100%;
 
 }
+
+
 @media only screen and (max-width: 600px) {
     #dotsandimages,#tabwall,#whiteTri,#upperTri ,#section5Dotted{
       display:none;
@@ -428,7 +430,7 @@ footer a:hover,a:focus{
             border-radius: 100%;
             display: inline-block;
             position:relative;
-            left:20vw;
+            /* left:15rem; */
     
         }
         .innerElipse{  
@@ -439,8 +441,8 @@ footer a:hover,a:focus{
             background: #7E35FE;
             border-radius: 100%;
             position:absolute;
-            left:5vw; 
-            top:12%; 
+            /* left:4rem; */
+            /* top:-3rem;  */
             
         }
         /* big previous & next buttons hide */
@@ -471,7 +473,7 @@ footer a:hover,a:focus{
         border-radius: 100%;
         display: inline-block;
         position:relative;
-        left:20vw;
+        left:15vw;
 
     }
     .innerElipse{  
@@ -483,14 +485,14 @@ footer a:hover,a:focus{
         border-radius: 100%;
         position:absolute;
         left:5vw; 
-        top:12%; 
+        top:5vw; 
         
     }
 }
   /* Portrait and Landscape */
 @media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) 
+and (min-device-width: 992px) 
+and (max-device-width: 1199px) 
 and (-webkit-min-device-pixel-ratio: 1) {
     #tabwall,#upperTri ,#section5Dotted{
         display:none;
@@ -518,7 +520,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         border-radius: 100%;
         display: inline-block;
         position:relative;
-        left:5%;
+        left:2rem;
 
     }
     .innerElipse{
@@ -528,8 +530,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
         background: #7E35FE;
         border-radius: 100%;
         position:absolute;
-        left:20%; 
-        top:20%; 
+        left:1.2rem; 
+        top:1.2rem; 
         
     }
 }

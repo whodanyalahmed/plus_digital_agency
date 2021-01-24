@@ -461,6 +461,30 @@ footer a:hover,a:focus{
   }
   }
 
+  @media only screen and (max-width: 991px) {
+    .outerElipse{
+        width: 20vw;
+        height: 20vw;
+        background: #f6f2fc;
+        border-radius: 100%;
+        display: inline-block;
+        position:relative;
+        left:5vw;
+
+    }
+    .innerElipse{  
+        width: 15vw;
+        height: 15vw;
+
+        display: inline-block;
+        background: #7E35FE;
+        border-radius: 100%;
+        position:absolute;
+        left:2.5vw; 
+        top:2.5vw; 
+        
+    }
+  }
 
 @media only screen and (max-width: 767px) {
     #dotsandimages,#tabwall,#upperTri ,#section5Dotted{

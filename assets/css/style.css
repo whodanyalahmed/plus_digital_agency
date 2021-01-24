@@ -542,7 +542,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     background-position: center;
     width: 100%;
     
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #abouthead a{
@@ -613,7 +613,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     background-position: center;
     width: 100%;
     
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #ServicesHead a{
     color:#fff;
@@ -686,7 +686,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     background-position: center;
     width: 100%;
     
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #LocationHead a{
     color:#fff;
@@ -721,7 +721,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     background-position: center;
     width: 100%;
     
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #ContactHead a{
     color:#fff;

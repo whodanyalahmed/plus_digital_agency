@@ -103,6 +103,9 @@ color: var(--unnamed-color-042031);
     outline:none !important;
     opacity: 1;
 }
+.navbar{
+    overflow: hidden;
+}
 /* 1st section */
 
 .bgcolor{
@@ -146,7 +149,7 @@ font: normal normal bold 50px/59px Poppins;
 letter-spacing: 3.9px;
 color: #FFFFFF;
 opacity: 1;
-overflow-x: hidden;
+overflow: hidden;
 }
 
 
@@ -175,8 +178,7 @@ opacity: 1;
     color: #7E35FE;
 }
 .bold{
-    font-weight:bold;
-    
+    font-weight:bold !important;
 }
 
 .btn-light{
@@ -221,6 +223,7 @@ opacity: 1;
     background-size: cover;
     background-position: center;
     width: 100%;
+    
     
 }
 .smallRect{
@@ -388,7 +391,7 @@ input[type="text"]:hover,input[type="text"]:focus   {
 
 /* Footer  */
 footer{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 footer a{
@@ -536,6 +539,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
     background-size: cover;
     background-position: center;
     width: 100%;
+    
+    overflow: hidden;
 }
 
 #abouthead a{
@@ -605,6 +610,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
     background-size: cover;
     background-position: center;
     width: 100%;
+    
+    overflow: hidden;
 }
 #ServicesHead a{
     color:#fff;
@@ -676,6 +683,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
     background-size: cover;
     background-position: center;
     width: 100%;
+    
+    overflow: hidden;
 }
 #LocationHead a{
     color:#fff;
@@ -709,6 +718,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
     background-size: cover;
     background-position: center;
     width: 100%;
+    
+    overflow: hidden;
 }
 #ContactHead a{
     color:#fff;
@@ -720,4 +731,30 @@ and (-webkit-min-device-pixel-ratio: 1) {
 #ContactHead a:hover,a:focus{
     color:#9058F2;
    
+}
+
+/* Services Details */
+.card-block a{
+    color:#fff;
+    font-size:20px;
+    font-weight: 200;
+}
+.card-block ul{
+    list-style:none;    
+    margin-left:-30px;
+
+}
+.card-block ul li{
+    margin-top:15px;
+}
+
+
+.rect{
+    background:#360263;
+    padding:10px;
+    left: 3rem;
+    top: 10%;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -25px;
 }

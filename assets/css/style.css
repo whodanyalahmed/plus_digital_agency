@@ -347,11 +347,11 @@ opacity: 1;
     margin-left:15px;
 }
 
-input[type="text"],select,textarea{
+.form-group > input[type="text"],select,textarea{
     border:none;
     outline:none;
     border-bottom: 2px solid #9058F2 !important;
-    margin-bottom:70px;
+    margin-bottom:50px;
     transition:0.5s ease-in-out;
     resize: none;
 }
@@ -359,8 +359,6 @@ input[type="text"]:hover,input[type="text"]:focus   {
     border-bottom: 3px solid #430064;
     
 }
-
-
 /* section 7 */
 #section7{
     background: #360263 url('../images/doted\ background\ contact\ us.svg');

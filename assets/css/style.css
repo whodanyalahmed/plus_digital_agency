@@ -410,157 +410,16 @@ footer a:hover,a:focus{
 .footer-below{
     overflow:hidden;
     border-top:2px solid #7E35FE;
-    width:100%;
+    width:101%;
 
 }
-
-
-@media only screen and (max-width: 600px) {
-    #dotsandimages,#tabwall,#whiteTri,#upperTri ,#section5Dotted{
-      display:none;
-    }
-          /* Section 3 */
-          .outerElipse{
-            width: 40vw;
-            height: 40vw;
-            background: #f6f2fc;
-            border-radius: 100%;
-            display: inline-block;
-            position:relative;
-            /* left:15rem; */
-    
-        }
-        .innerElipse{  
-            width: 30vw;
-            height: 30vw;
-    
-            display: inline-block;
-            background: #7E35FE;
-            border-radius: 100%;
-            position:absolute;
-            /* left:4rem; */
-            /* top:-3rem;  */
-            
-        }
-        /* big previous & next buttons hide */
-.flickity-prev-next-button {
-    background: #1e015e;
-    color:#fff;
-    position:relative;
-    top:120px;
-    left: 75%;
-    padding:60px 15px;
-    border:none;
-    transition:0.9 ease-in-out;
-    outline: none;
-    border-radius: 0px;
-    margin: 50px 0;
-  }
-  }
-
-  @media only screen and (max-width: 991px) {
-    .outerElipse{
-        width: 20vw;
-        height: 20vw;
-        background: #f6f2fc;
-        border-radius: 100%;
-        display: inline-block;
-        position:relative;
-        left:5vw;
-
-    }
-    .innerElipse{  
-        width: 15vw;
-        height: 15vw;
-
-        display: inline-block;
-        background: #7E35FE;
-        border-radius: 100%;
-        position:absolute;
-        left:2.5vw; 
-        top:2.5vw; 
-        
-    }
-  }
-
-@media only screen and (max-width: 767px) {
-    #dotsandimages,#tabwall,#upperTri ,#section5Dotted{
-        display:none;
-      }
-      .outerElipse{
-        width: 40vw;
-        height: 40vw;
-        background: #f6f2fc;
-        border-radius: 100%;
-        display: inline-block;
-        position:relative;
-        left:15vw;
-
-    }
-    .innerElipse{  
-        width: 30vw;
-        height: 30vw;
-
-        display: inline-block;
-        background: #7E35FE;
-        border-radius: 100%;
-        position:absolute;
-        left:5vw; 
-        top:5vw; 
-        
-    }
-}
-  /* Portrait and Landscape */
-@media only screen 
-and (min-device-width: 992px) 
-and (max-device-width: 1199px) 
-and (-webkit-min-device-pixel-ratio: 1) {
-    #tabwall,#upperTri ,#section5Dotted{
-        display:none;
-      }
-      .card-image{
-          width:120%;
-      }
-      #dotsandimages{
-          margin-top:50px;
-      }
-      #mainimage{
-          width:350px;
-          height:300px;
-          /* margin-right:10px; */
-      }
-      #upperdots,#lowerdots{
-          height:150px;
-          width:150px;
-      }
-      /* Section 3 */
-    .outerElipse{
-        width: 100px;
-        height: 100px;
-        background: #f6f2fc;
-        border-radius: 100%;
-        display: inline-block;
-        position:relative;
-        left:2rem;
-
-    }
-    .innerElipse{
-        width: 60px;
-        height: 60px;
-        display: inline-block;
-        background: #7E35FE;
-        border-radius: 100%;
-        position:absolute;
-        left:1.2rem; 
-        top:1.2rem; 
-        
-    }
-}
-
-
 
 /* About us */
-
+#aboutDashedBG{
+    width: 600px;
+    position:relative;
+    left:246px;
+}
 #abouthead{
     background: url("../images/banner.png");
     background-repeat: no-repeat;
@@ -792,3 +651,164 @@ and (-webkit-min-device-pixel-ratio: 1) {
     margin-top: -25px;
     margin-left: -25px;
 }
+
+
+
+/*media qeuries*/
+
+
+
+@media only screen and (max-width: 600px) {
+    #dotsandimages,#tabwall,#whiteTri,#upperTri ,#section5Dotted{
+      display:none;
+    }
+          /* Section 3 */
+          .outerElipse{
+            width: 40vw;
+            height: 40vw;
+            background: #f6f2fc;
+            border-radius: 100%;
+            display: inline-block;
+            position:relative;
+            /* left:15rem; */
+    
+        }
+        .innerElipse{  
+            width: 30vw;
+            height: 30vw;
+    
+            display: inline-block;
+            background: #7E35FE;
+            border-radius: 100%;
+            position:absolute;
+            /* left:4rem; */
+            /* top:-3rem;  */
+            
+        }
+        /* big previous & next buttons hide */
+.flickity-prev-next-button {
+    background: #1e015e;
+    color:#fff;
+    position:relative;
+    top:120px;
+    left: 75%;
+    padding:60px 15px;
+    border:none;
+    transition:0.9 ease-in-out;
+    outline: none;
+    border-radius: 0px;
+    margin: 50px 0;
+  }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .outerElipse{
+        width: 20vw;
+        height: 20vw;
+        background: #f6f2fc;
+        border-radius: 100%;
+        display: inline-block;
+        position:relative;
+        left:5vw;
+
+    }
+    .innerElipse{  
+        width: 15vw;
+        height: 15vw;
+
+        display: inline-block;
+        background: #7E35FE;
+        border-radius: 100%;
+        position:absolute;
+        left:2.5vw; 
+        top:2.5vw; 
+        
+    }
+
+    #aboutDashedBG{
+        width: 400px;
+        position:relative;
+        left:136px;
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    #dotsandimages,#tabwall,#upperTri ,#section5Dotted{
+        display:none;
+      }
+      .outerElipse{
+        width: 40vw;
+        height: 40vw;
+        background: #f6f2fc;
+        border-radius: 100%;
+        display: inline-block;
+        position:relative;
+        left:15vw;
+
+    }
+    .innerElipse{  
+        width: 30vw;
+        height: 30vw;
+
+        display: inline-block;
+        background: #7E35FE;
+        border-radius: 100%;
+        position:absolute;
+        left:5vw; 
+        top:5vw; 
+        
+    }
+}
+  /* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 992px) 
+and (max-device-width: 1199px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    #tabwall,#upperTri ,#section5Dotted{
+        display:none;
+      }
+      .card-image{
+          width:120%;
+      }
+      #dotsandimages{
+          margin-top:50px;
+      }
+      #mainimage{
+          width:350px;
+          height:300px;
+          /* margin-right:10px; */
+      }
+      #upperdots,#lowerdots{
+          height:150px;
+          width:150px;
+      }
+      /* Section 3 */
+    .outerElipse{
+        width: 100px;
+        height: 100px;
+        background: #f6f2fc;
+        border-radius: 100%;
+        display: inline-block;
+        position:relative;
+        left:2rem;
+
+    }
+    .innerElipse{
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        background: #7E35FE;
+        border-radius: 100%;
+        position:absolute;
+        left:1.2rem; 
+        top:1.2rem; 
+        
+    }
+    #aboutDashedBG{
+        width: 500px;
+        position:relative;
+        left:206px;
+    }
+}
+
+

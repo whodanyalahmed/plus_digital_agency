@@ -610,9 +610,15 @@ and (-webkit-min-device-pixel-ratio: 1) {
 #tags{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 29px;
-    width: 673px;
-    height: 63px;
+    padding:20px 20px;
+    text-align:center;
+    
 }
+#tags a{
+    margin:0px 10px;
+    color:#7E35FE;
+}
+
 #noListStyle{
     list-style:none;
 }

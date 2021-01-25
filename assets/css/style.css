@@ -382,9 +382,10 @@ input[type="text"]:hover,input[type="text"]:focus   {
     border:none;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 4px 8px 16px #00000014;
-    padding:10px 40px;
+    padding:10px 50px;
     border-top-right-radius: 145px;
     border-bottom-right-radius: 145px;
+    font-size: 25px;
     
 }
 #emailinput::placeholder{
